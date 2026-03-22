@@ -2,7 +2,7 @@ This file describes the MATLAB code and other files used in the article *Simulta
 
 The code has been developed in MATLAB version R2025a and it relies on the [LTFAT](https://github.com/ltfat/ltfat/releases/tag/v2.6.0) toolbox (version 2.6.0).
 
-In the root folder, there are two main files `main_CPA1` and `main_CPA2`, they run a reconstruction experiment according to the used algorithm. Within this files, it is possible to change input audio file (audiofile) and the bit depth of quantization (param.w) for the quantized observation. It is also possible to modify other parameters such as the DGT frame settings, number of iterations or general options of the CV numerical algorithm. The default values are those used in the experiments in the paper for the sake of reproducibility.
+In the root folder, there are two main files `main_CVA1` and `main_CVA2`, they run a reconstruction experiment according to the used algorithm. Within this files, it is possible to change input audio file (audiofile) and the bit depth of quantization (param.w) for the quantized observation. It is also possible to modify other parameters such as the DGT frame settings, number of iterations or general options of the CV numerical algorithm. The default values are those used in the experiments in the paper for the sake of reproducibility.
 
 The other files in the root folder provide supporting functions and tools for the dequantization algorithms, including signal quantization and projection onto the set of feasible values.
 
