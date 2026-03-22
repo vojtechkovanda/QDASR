@@ -1,4 +1,4 @@
-This file describes the MATLAB code and other files used in the article Simultaneous Reconstruction of Quantized and Downsampled Audio Signals. 
+This file describes the MATLAB code and other files used in the article *Simultaneous Reconstruction of Quantized and Downsampled Audio Signals*. 
 
 The code has been developed in MATLAB version R2025a
 
